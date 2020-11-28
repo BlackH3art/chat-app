@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 50px;
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  color: #00b7ff;
+}
+
+.content {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.room {
+  background-color: #ddd;
+  margin-bottom: 1em;
+}
+
+.messages {
+  width: 690px;
+  height: 300px;
+  overflow: auto;
+  background-color: #eee;
+  margin-bottom: 1em;
+  margin-right: 10px;
+}
